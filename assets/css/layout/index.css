@@ -1,0 +1,73 @@
+.sessao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+    .sessao__titulo{
+        color: var(--texto-branco);
+        font-size: 80px;
+        font-weight: var(--texto-negrito);
+    }
+
+.sessao--hero{
+    background-image: url('../../img/hero-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 24px;
+}
+
+    .hero__container-botoes{
+        display: flex;
+        gap: 24px;
+    }
+
+.sessao--conteudo{
+    gap: 48px;
+}
+
+    .conteudo__container-cards{
+        display: flex;
+        gap: 72px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+.sessao--creditos{
+    align-items: flex-start;
+    background-color: var(--cor-cinza);
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 160px;
+    height: auto;
+    padding: 160px 0px;
+}
+
+    .creditos__container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+        .creditos__container > div{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+    .container__titulo, .container__participante{
+       color: var(--texto-branco); 
+       text-align: center;
+    }
+
+    .container__titulo{
+        font-size: 64px;
+        font-weight: var(--texto-negrito);
+    }
+
+    .container__participante{
+        font-size: 32px;
+        font-weight: var(--texto-medio);
+    }
