@@ -1,3 +1,10 @@
+.container-botoes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 .botao{
     color: #FAFAFA;
     cursor: pointer;
@@ -7,10 +14,19 @@
     font-size: 24px;
     font-weight: 600;
     padding: 8px 40px;
+    transition: 500ms;
 }
 
     .botao--primario{
         background-color: #4C34DF;
+        border-color: #4C34DF;
+        border-style: solid;
+        border-width: 2px;
+    }
+
+    .botao--primario:hover{
+        background-color: #715ef0;
+        border-color: #715ef0;
     }
 
     .botao--secundario{
@@ -18,6 +34,7 @@
         border-color: #FAFAFA;
         border-style: solid;
         border-width: 2px;
+        box-sizing: border-box;
     }
 
     .botao--terciario{

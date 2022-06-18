@@ -1,0 +1,27 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* height: 100vh; */
+    justify-content: center;
+    padding: 64px 0px;
+}
+
+.inscricao__titulo{
+    color: var(--texto-branco);
+    font-size: 80px;
+    font-weight: var(--texto-negrito);
+    text-align: center;
+}
+
+.inscricao__formulario{
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px 64px;
+    width: 640px;
+}
